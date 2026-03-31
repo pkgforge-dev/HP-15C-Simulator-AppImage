@@ -12,7 +12,7 @@ export DESKTOP=/usr/share/applications/hp15c.desktop
 export ALWAYS_SOFTWARE=1
 
 # Deploy dependencies
-quick-sharun /usr/bin/hp15c /usr/bin/wish /usr/lib/hp15c/*
+quick-sharun /usr/bin/wish ./AppDir/bin/*
 
 # Additional changes can be done in between here
 mkdir -p ./AppDir/share/fonts
