@@ -13,11 +13,12 @@ export STARTUPWMCLASS=Hp-15c.tcl
 export ALWAYS_SOFTWARE=1
 
 # Deploy dependencies
-quick-sharun /usr/bin/wish /usr/lib/tcl8.6/init.tcl ./AppDir/bin/*
+quick-sharun /usr/bin/wish ./AppDir/bin/*
 
 # Additional changes can be done in between here
 mkdir -p ./AppDir/share/fonts
 cp -v /usr/share/fonts/HP-15C_Simulator_Font.ttf ./AppDir/share/fonts
+cp -v /usr/lib/tcl8.6 ./AppDir/shared/lib
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
