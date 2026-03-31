@@ -7,7 +7,7 @@
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/HP-15C-Simulator-AppImage)](https://github.com/pkgforge-dev/HP-15C-Simulator-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://github.com/pkgforge-dev.png" width="128" />
+  <img src="https://github.com/Link4Electronics/HP-15C-Simulator-AppImage/blob/main/AppDir/hp15c.png" width="128" />
 </p>
 
 
