@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=HP-15C
+Comment=HEWLETT-PACKARD 15C Simulator
+Exec=wish HP-15C.tcl "$@"
+Icon=hp15c
+StartupWMClass=
+Terminal=false
+Categories=Utility;Calculator;
