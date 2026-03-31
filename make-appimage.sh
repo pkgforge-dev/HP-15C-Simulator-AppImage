@@ -12,7 +12,7 @@ export DESKTOP=/usr/share/applications/hp15c.desktop
 export ALWAYS_SOFTWARE=1
 
 # Deploy dependencies
-quick-sharun /usr/bin/hp15c /usr/bin/wish
+quick-sharun /usr/bin/hp15c /usr/bin/wish /usr/lib/hp15c/*
 
 # Additional changes can be done in between here
 
