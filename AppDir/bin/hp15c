@@ -1,2 +1,2 @@
 #!/bin/sh
-exec "$APPDIR"/bin/wish ./HP-15C.tcl "$@"
+exec "$APPDIR"/bin/wish "$APPDIR"/bin/HP-15C.tcl "$@"
