@@ -15,6 +15,8 @@ export ALWAYS_SOFTWARE=1
 quick-sharun /usr/bin/hp15c /usr/bin/wish /usr/lib/hp15c/*
 
 # Additional changes can be done in between here
+mkdir -p ./AppDir/share/fonts
+cp -v /usr/share/fonts/HP-15C_Simulator_Font.ttf ./AppDir/share/fonts
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
