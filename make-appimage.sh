@@ -10,7 +10,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export USE_HOST_DRIVERS_EXPERIMENTAL=1
 
 # Deploy dependencies
-quick-sharun ./AppDir/bin/wish ./AppDir/bin/*
+quick-sharun /usr/bin/wish ./AppDir/bin/*
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
