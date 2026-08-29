@@ -19,6 +19,7 @@ get-debloated-pkgs --add-common --prefer-nano
 echo "Getting app..."
 echo "---------------------------------------------------------------"
 VERSION=5.1.00
+echo "$VERSION" > ~/version
 wget https://hp-15c-simulator.de/versions/${VERSION}/HP-15C_${VERSION}_Source.zip
 bsdtar -xf ./HP-15C_${VERSION}_Source.zip
 
