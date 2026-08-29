@@ -16,6 +16,12 @@ get-debloated-pkgs --add-common --prefer-nano
 #make-aur-package hp15c
 
 # If the application needs to be manually built that has to be done down here
+echo "Getting app..."
+echo "---------------------------------------------------------------"
+VERSION=5.1.00
+wget https://hp-15c-simulator.de/versions/${VERSION}/HP-15C_${VERSION}_Source.zip
+bsdtar -xf ./HP-15C_${VERSION}_Source.zip
+
 mkdir -p ./AppDir/bin
 mv -v /usr/lib/hp15c/* ./AppDir/bin
 
