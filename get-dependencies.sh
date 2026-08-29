@@ -21,5 +21,5 @@ bsdtar -xf ./HP-15C_${VERSION}_Source.zip
 
 mkdir -p ./AppDir/bin
 mkdir -p ./AppDir/share/fonts
-mv -v css icons lib msgs images HP-15C.tcl ./AppDir/bin
+mv -v css lib msgs images HP-15C.tcl ./AppDir/bin
 mv -v HP-15C_Simulator_Font.ttf ./AppDir/share/fonts
