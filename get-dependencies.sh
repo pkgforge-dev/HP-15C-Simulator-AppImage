@@ -23,9 +23,6 @@ wget https://hp-15c-simulator.de/versions/${VERSION}/HP-15C_${VERSION}_Source.zi
 bsdtar -xf ./HP-15C_${VERSION}_Source.zip
 
 mkdir -p ./AppDir/bin
-mv -v /usr/lib/hp15c/* ./AppDir/bin
-
 mkdir -p ./AppDir/share/fonts
-cp -v /usr/share/fonts/HP-15C_Simulator_Font.ttf ./AppDir/share/fonts
-cp -r /usr/lib/tcl8* ./AppDir/shared/lib
-cp -r /usr/lib/tk8.6 ./AppDir/shared/lib
+mv -v css icons lib msgs images HP-15C.tcl ./AppDir/bin
+mv -v HP-15C_Simulator_Font.ttf ./AppDir/share/fonts
